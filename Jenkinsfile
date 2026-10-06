@@ -14,6 +14,7 @@ pipeline{
         stage("run"){
             steps{
                 sh "docker run -d -p 5000:5000 backend"
+                // sh "docker run -d -p 5000:5000 backend"
             }
         }
     }
