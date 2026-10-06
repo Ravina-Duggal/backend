@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("clone repo"){
             steps{
-                git url:"", branch:"main"
+                git url:"https://github.com/Ravina-Duggal/backend.git", branch:"main"
             }
         }
         stage("build"){
